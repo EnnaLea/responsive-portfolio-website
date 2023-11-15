@@ -686,7 +686,6 @@ img {
 }
 
 .contact_input {
-  width: 100%;
   background-color: var(--input-color);
   color: var(--text-color);
   font-family: var(--body-font);
@@ -695,6 +694,8 @@ img {
   outline: none;
   padding: 0.25rem 0.5rem 0.5rem 0;
 }
+
+
 
 .submit-btn{
   border: none;
@@ -1041,7 +1042,7 @@ main{
   }
 
   div.contact_inputs.grid {
-    width: 300px;
+    width: 450px;
   }
 
   .footer_container {
@@ -1079,6 +1080,10 @@ main{
   .footer_container {
     padding: 0;
   }
+
+  /* .div.contact_input.grid{
+    width: 350px;
+  } */
 
   .footer_title {
     margin-left: 1.5rem;
